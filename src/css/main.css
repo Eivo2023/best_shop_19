@@ -26,7 +26,7 @@ html, body {
     max-width: 71.25rem;
     padding-inline: 1.25rem;
     margin-inline: auto;
-    margin-bottom: 8.375rem;;
+    margin-bottom: 8.375rem;
 }
 
 .logo {
@@ -472,4 +472,39 @@ order: -10;
     text-align: left;
     width: auto;
 
+}
+
+.footer {
+    background-color: #FFFFFF;
+    position: relative;
+    /* z-index: 42; */
+    box-shadow: 0px -5px 40px #00000029;
+}
+
+.footer .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 71.25rem;
+    padding-inline: 1.25rem;
+    margin-inline: auto;
+    margin-bottom: 0;
+}
+
+.section .section__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .section__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__footer {
+    display: flex;
+    padding: 1.5625rem;
 }
