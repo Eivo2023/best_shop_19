@@ -26,6 +26,7 @@ html, body {
     max-width: 71.25rem;
     padding-inline: 1.25rem;
     margin-inline: auto;
+    margin-bottom: 8.375rem;;
 }
 
 .logo {
@@ -119,7 +120,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    margin-bottom: 3.375rem;
+    margin-bottom: 5.375rem;
 }
 
 .section .section__col {
@@ -276,6 +277,18 @@ h3.section__hdl--photo {
 
 }
 
+.section .section__hdl--number__blue {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.875rem;
+    color: var(--secondary-color);
+    margin-top: 0.875rem;
+    margin-bottom: 3.75rem;
+
+}
+
 .section .section__hdl--first {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -317,25 +330,146 @@ h3.section__hdl--photo {
     margin-top: 5.0625rem;
 }
 
+.btn__blue {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    padding: 1.125rem 3.875rem;
+    border-radius: 2.5rem;
+    transition: all 400ms;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: 0;
+    margin-top: 7.1825rem;
+}
+
 .btn__red:hover {
     background-color: #f37a96;
+}
+
+.btn__blue:hover {
+    background-color: #08d2ff;
 }
 
 .section .section__col--border {
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
     width: 23.25rem;
     height: 28.8125rem;
     background-color: white;
-    border: #FB3B64;
+    border: 1px solid #FB3B64;
     border-radius: 1.125rem;
+}
+
+.section .section__col--border__blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25.3125rem;
+    height: 31.25rem;
+    background-color: white;
+    border: 1px solid #07ACE6;
+    border-radius: 1.125rem;
+    box-shadow: 5px 10px 27px #07ACE629;;
 }
 
 .section .section__box--pricing {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 3.375rem;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+    width: 50%;
+
+}
+
+.contact-form button {
+    align-self: flex-end;
+
+}
+
+.contact-form .contact-form__group {
+    display: flex;
+    gap: .625rem;
+    align-items: flex-start;
+
+}
+
+.contact-form .contact-form__group .contact-form__checkbox {
+order: -10;
+}
+
+.contact-form .contact-form__group label {
+    font-size: .625rem;
+    color: rgba(178, 178, 178, 1);
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -.15rem;
+}
+
+.btn__send {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    padding: 1.125rem 3.875rem;
+    border-radius: 2.5rem;
+    transition: all 400ms;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: 0;
+    align-self: flex-end;
+}
+
+.btn__send:hover {
+    background-color: #08d2ff;
+}
+
+.section .section__box .section__inline {
+    display: inline-block;
+
+}
+
+.section .section__text--left {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #A5A5A5;
+    line-height: 1.357;
+    min-width: 16.25rem;
+    margin-top: 0;
+}
+
+.section .section__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+
+.section .section__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: auto;
+
+}
